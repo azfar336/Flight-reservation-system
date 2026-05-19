@@ -1,32 +1,34 @@
-# Flight-reservation-system
-How to Run the Project
+A simple Flight Reservation System using Python and MySQL.
 
-Install Python Make sure Python (preferably version 3.8 or higher) is installed on your system. You can download it from python.org .
+## Features
+- Passenger SignUp
+- Passenger SignIn
+- Check Flight Availability
+- Book Ticket
+- Cancel Ticket
+- Ticket Status Checking
+- Cashier Approval System
 
+## Technologies Used
+- Python
+- MySQL
+- mysql-connector-python
+
+## How to Run
+Install Python Make sure Python (preferably version 3.8 or higher) is installed on your system. You can download it from python.org 
 Install MySQL Server Install MySQL Community Server and MySQL Workbench if needed. Make sure the server is running.
-
 Install Required Python Libraries Open a terminal or command prompt and run:
-
 pip install customtkinter pip install pillow pip install mysql-connector-python
 
 Set Up the Database
-
 Open MySQL Workbench or your preferred MySQL client.
-
 Run the provided SQL script (database.sql) to create the database and required tables.
-
 Prepare the Project Files
-
 Place the Python file (main.py), user_pass.txt, and all image files in the same folder.
-
 In user_pass.txt, enter your MySQL username and password. Example format:
-
 username: your_mysql_username password: your_mysql_password
-
 Run the Application
 
 Open a terminal in the project folder.
-
-Run the Python script:
-
+run the Python script:
 python main.py
